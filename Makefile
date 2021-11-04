@@ -17,12 +17,17 @@ eq = $(if $(or $(1),$(2)),$(and $(findstring $(1),$(2)),\
 
 FLUTTER_VER ?= $(strip \
 	$(shell grep 'ARG flutter_ver=' Dockerfile | cut -d '=' -f2))
+BUILD_REV ?= $(strip \
+	$(shell grep 'ARG build_rev=' Dockerfile | cut -d '=' -f2))
 
 NAMESPACES := instrumentisto \
               ghcr.io/instrumentisto \
               quay.io/instrumentisto
 NAME := flutter
-TAGS ?= $(FLUTTER_VER) \
+TAGS ?= $(FLUTTER_VER)-r$(BUILD_REV) \
+        $(FLUTTER_VER) \
+        $(strip $(shell echo $(FLUTTER_VER) | cut -d '.' -f1,2)) \
+        $(strip $(shell echo $(FLUTTER_VER) | cut -d '.' -f1)) \
         latest
 VERSION ?= $(word 1,$(subst $(comma), ,$(TAGS)))
 
@@ -39,6 +44,8 @@ push: docker.push
 
 release: git.release
 
+tags: docker.tags
+
 test: test.docker
 
 
@@ -53,70 +60,56 @@ docker-namespaces = $(strip $(if $(call eq,$(namespaces),),\
 docker-tags = $(strip $(if $(call eq,$(tags),),\
                       $(TAGS),$(subst $(comma), ,$(tags))))
 
-# Runs `docker buildx build` command allowing to customize it for the purpose of
-# re-tagging or pushing.
-define docker.buildx
-	$(eval namespace := $(strip $(1)))
-	$(eval tag := $(strip $(2)))
-	$(eval no-cache := $(strip $(3)))
-	$(eval args := $(strip $(4)))
-	docker buildx build --force-rm $(args) \
+
+# Build Docker image with the given tag.
+#
+# Usage:
+#	make docker.image [tag=($(VERSION)|<docker-tag>)]] [no-cache=(no|yes)]
+#	                  [FLUTTER_VER=<android-ndk-version>]
+#	                  [BUILD_REV=<build-revision>]
+
+docker.image:
+	docker build --network=host --force-rm \
 		$(if $(call eq,$(no-cache),yes),--no-cache --pull,) \
 		--build-arg flutter_ver=$(FLUTTER_VER) \
-		-t $(namespace)/$(NAME):$(tag) .
+		--build-arg build_rev=$(BUILD_REV) \
+		-t instrumentisto/$(NAME):$(or $(tag),$(VERSION)) ./
+
+
+# Manually push Docker images to container registries.
+#
+# Usage:
+#	make docker.push [tags=($(TAGS)|<docker-tag-1>[,<docker-tag-2>...])]
+#	                 [namespaces=($(NAMESPACES)|<prefix-1>[,<prefix-2>...])]
+
+docker.push:
+	$(foreach tag,$(subst $(comma), ,$(docker-tags)),\
+		$(foreach namespace,$(subst $(comma), ,$(docker-namespaces)),\
+			$(call docker.push.do,$(namespace),$(tag))))
+define docker.push.do
+	$(eval repo := $(strip $(1)))
+	$(eval tag := $(strip $(2)))
+	docker push $(repo)/$(NAME):$(tag)
 endef
 
 
-# Pre-build cache for Docker image builds.
-#
-# WARNING: This command doesn't apply tag to the built Docker image, just
-#          creates a build cache. To produce a Docker image with a tag, use
-#          `docker.image` command right after running this one.
+# Tag Docker image with the given tags.
 #
 # Usage:
-#	make docker.build.cache
-#		[no-cache=(no|yes)]
-#		[FLUTTER_VER=<flutter-version>]
+#	make docker.tags [of=($(VERSION)|<docker-tag>)]
+#	                 [tags=($(TAGS)|<docker-tag-1>[,<docker-tag-2>...])]
+#	                 [namespaces=($(NAMESPACES)|<prefix-1>[,<prefix-2>...])]
 
-docker.build.cache:
-	$(call docker.buildx,\
-		instrumentisto,\
-		build-cache,\
-		$(no-cache),\
-		--output 'type=image$(comma)push=false')
-
-
-# Build Docker image on the given platform with the given tag.
-#
-# Usage:
-#	make docker.image
-#		[tag=($(VERSION)|<tag>)]
-#		[no-cache=(no|yes)]
-#		[FLUTTER_VER=<flutter-version>]
-
-docker.image:
-	$(call docker.buildx,\
-		instrumentisto,\
-		$(or $(tag),$(VERSION)),\
-		$(no-cache),\
-		--load)
-
-
-# Push Docker images to their repositories (container registries).
-#
-# Usage:
-#	make docker.push
-#		[namespaces=($(NAMESPACES)|<prefix-1>[,<prefix-2>...])]
-#		[tags=($(TAGS)|<tag-1>[,<tag-2>...])]
-#		[FLUTTER_VER=<flutter-version>]
-
-docker.push:
-	$(foreach namespace,$(docker-namespaces),\
-		$(foreach tag,$(docker-tags),\
-			$(call docker.buildx,\
-				$(namespace),\
-				$(tag),\
-				--push)))
+docker.tags:
+	$(foreach tag,$(subst $(comma), ,$(docker-tags)),\
+		$(foreach namespace,$(subst $(comma), ,$(docker-namespaces)),\
+			$(call docker.tags.do,$(or $(of),$(VERSION)),$(namespace),$(tag))))
+define docker.tags.do
+	$(eval from := $(strip $(1)))
+	$(eval repo := $(strip $(2)))
+	$(eval to := $(strip $(3)))
+	docker tag instrumentisto/$(NAME):$(from) $(repo)/$(NAME):$(to)
+endef
 
 
 docker.test: test.docker
@@ -140,7 +133,7 @@ test.docker:
 ifeq ($(wildcard node_modules/.bin/bats),)
 	@make npm.install
 endif
-	IMAGE=instrumentisto/$(NAME):$(if $(call eq,$(tag),),$(VERSION),$(tag)) \
+	IMAGE=instrumentisto/$(NAME):$(or $(tag),$(VERSION)) \
 	node_modules/.bin/bats \
 		--timing $(if $(call eq,$(CI),),--pretty,--formatter tap) \
 		tests/main.bats
@@ -194,8 +187,8 @@ endif
 # .PHONY section #
 ##################
 
-.PHONY: image push release test \
-        docker.build.cache docker.image docker.push docker.test \
+.PHONY: image push release tags test \
+        docker.image docker.push docker.tags docker.test \
         git.release \
         npm.install \
         test.docker
