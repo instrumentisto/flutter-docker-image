@@ -1,26 +1,44 @@
-# https://hub.docker.com/r/cirrusci/flutter
-# https://github.com/cirruslabs/docker-images-flutter/blob/master/sdk/Dockerfile
-ARG flutter_ver=2.5.3
-FROM cirrusci/flutter:${flutter_ver}
+# https://hub.docker.com/r/cirrusci/android-sdk
+# https://github.com/cirruslabs/docker-images-android/blob/master/sdk/30/Dockerfile
+ARG android_sdk_ver=30
+FROM cirrusci/android-sdk:${android_sdk_ver}
 
+ARG flutter_ver=2.5.3
 ARG build_rev=0
 
 LABEL org.opencontainers.image.source="\
     https://github.com/instrumentisto/flutter-docker-image"
 
 
-# Install dependencies
+# Install Flutter
+ENV FLUTTER_HOME=/usr/local/flutter \
+    FLUTTER_VERSION=${flutter_ver} \
+    PATH=$PATH:/usr/local/flutter/bin:/usr/local/flutter/bin/cache/dart-sdk/bin
 RUN apt-get update \
- && apt-get install -y --no-install-recommends \
+ && apt-get upgrade -y \
+ && apt-get install -y --no-install-recommends --no-install-suggests \
+            ca-certificates \
+ && update-ca-certificates \
+    \
+ # Install dependencies for Linux toolchain
+ && apt-get install -y --no-install-recommends --no-install-suggests \
             build-essential \
             clang cmake \
             lcov \
             libgtk-3-dev liblzma-dev \
             ninja-build \
             pkg-config \
- # Cleanup unnecessary stuff
- && rm -rf /var/lib/apt/lists/*
-
-# Enable Android and Linux support
-RUN flutter config --enable-android \
- && flutter config --enable-linux-desktop
+    \
+ # Install Flutter itself
+ && curl -fL -o /tmp/flutter.tar.xz \
+         https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${flutter_ver}-stable.tar.xz \
+ && tar -xf /tmp/flutter.tar.xz -C /usr/local/ \
+ && flutter config --enable-android \
+                   --enable-linux-desktop \
+                   --enable-web \
+                   --no-enable-ios \
+ && flutter precache --universal --linux --web --no-ios \
+ && (yes | flutter doctor --android-licenses) \
+    \
+ && rm -rf /var/lib/apt/lists/* \
+           /tmp/*

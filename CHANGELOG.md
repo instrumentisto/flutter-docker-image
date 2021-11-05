@@ -6,6 +6,20 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [2.5.3-androidsdk30-r0] · 2021-11-05
+[2.5.3-androidsdk30-r0]: /../../tree/2.5.3-androidsdk30-r0
+
+[Diff](/../../compare/2.5.3-r0...2.5.3-androidsdk30-r0)
+
+### Added
+
+- Explicitly versioning for [Android SDK].
+- `Web` [Flutter] toolchain supported.
+- Prefetched tools for supported [Flutter] toolchains.
+
+
+
+
 ## [2.5.3-r0] · 2021-11-04
 [2.5.3-r0]: /../../tree/2.5.3-r0
 
@@ -18,5 +32,6 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+[Android SDK]: https://developer.android.com/studio
 [Flutter]: https://flutter.dev
 [Semantic Versioning 2.0.0]: https://semver.org

@@ -32,6 +32,23 @@
   [ "$status" -eq 0 ]
 }
 
+@test "flutter has correct version" {
+  run docker run --rm --entrypoint sh $IMAGE -c \
+    "flutter --version | grep 'Flutter ' | cut -d ' ' -f 2 | tr -d ' '"
+  [ "$status" -eq 0 ]
+  [ "$output" != '' ]
+  actual="$output"
+
+  run sh -c "cat Dockerfile | grep 'ARG flutter_ver=' \
+                            | cut -d '=' -f 2 \
+                            | tr -d ' '"
+  [ "$status" -eq 0 ]
+  [ "$output" != '' ]
+  expected="$output"
+
+  [ "$actual" == "$expected" ]
+}
+
 
 @test "Android toolchain is enabled" {
   run docker run --rm --entrypoint sh $IMAGE -c \
@@ -58,4 +75,11 @@
     'flutter doctor | grep "Linux toolchain"'
   [ "$status" -eq 0 ]
   [[ "$output" == *"[✓] Linux toolchain"* ]]
+}
+
+
+@test "Web toolchain is enabled" {
+  run docker run --rm --entrypoint sh $IMAGE -c \
+    'flutter config | grep "enable-web: true"'
+  [ "$status" -eq 0 ]
 }

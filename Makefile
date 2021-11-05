@@ -17,6 +17,8 @@ eq = $(if $(or $(1),$(2)),$(and $(findstring $(1),$(2)),\
 
 FLUTTER_VER ?= $(strip \
 	$(shell grep 'ARG flutter_ver=' Dockerfile | cut -d '=' -f2))
+ANDROID_SDK_VER ?= $(strip \
+	$(shell grep 'ARG android_sdk_ver=' Dockerfile | cut -d '=' -f2))
 BUILD_REV ?= $(strip \
 	$(shell grep 'ARG build_rev=' Dockerfile | cut -d '=' -f2))
 
@@ -24,7 +26,7 @@ NAMESPACES := instrumentisto \
               ghcr.io/instrumentisto \
               quay.io/instrumentisto
 NAME := flutter
-TAGS ?= $(FLUTTER_VER)-r$(BUILD_REV) \
+TAGS ?= $(FLUTTER_VER)-androidsdk$(ANDROID_SDK_VER)-r$(BUILD_REV) \
         $(FLUTTER_VER) \
         $(strip $(shell echo $(FLUTTER_VER) | cut -d '.' -f1,2)) \
         $(strip $(shell echo $(FLUTTER_VER) | cut -d '.' -f1)) \
@@ -72,6 +74,7 @@ docker.image:
 	docker build --network=host --force-rm \
 		$(if $(call eq,$(no-cache),yes),--no-cache --pull,) \
 		--build-arg flutter_ver=$(FLUTTER_VER) \
+		--build-arg android_sdk_ver=$(ANDROID_SDK_VER) \
 		--build-arg build_rev=$(BUILD_REV) \
 		-t instrumentisto/$(NAME):$(or $(tag),$(VERSION)) ./
 
