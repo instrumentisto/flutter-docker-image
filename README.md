@@ -74,9 +74,9 @@ Latest tag of `X.Y` [Flutter]'s minor version.
 Latest tag of a concrete `X.Y.Z` version of [Flutter].
 
 
-### `X.Y.Z-rN`
+### `X.Y.Z-androidsdkA-rN`
 
-Concrete `N` image revision tag of a [Flutter]'s concrete `X.Y.Z` version.
+Concrete `N` image revision tag of a [Flutter]'s concrete `X.Y.Z` version along with `A` version of [Android SDK].
 
 Once build, it's never updated.
 
@@ -105,6 +105,7 @@ If you have any problems with or questions about this image, please contact us t
 
 
 
+[Android SDK]: https://developer.android.com/studio
 [DockerHub]: https://hub.docker.com
 [Flutter]: https://flutter.dev
 
