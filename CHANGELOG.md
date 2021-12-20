@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [2.8.1-androidsdk30-r0] · 2021-12-20
+[2.8.1-androidsdk30-r0]: /../../tree/2.8.1-androidsdk30-r0
+
+[Diff](/../../compare/2.8.0-androidsdk30-r0...2.8.1-androidsdk30-r0)
+
+### Upgraded
+
+- [Flutter] 2.8.1: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#281-december-16-2021>
+
+
+
+
 ## [2.8.0-androidsdk30-r0] · 2021-12-10
 [2.8.0-androidsdk30-r0]: /../../tree/2.8.0-androidsdk30-r0
 
