@@ -3,7 +3,7 @@
 ARG android_sdk_ver=30
 FROM cirrusci/android-sdk:${android_sdk_ver}
 
-ARG flutter_ver=2.8.1
+ARG flutter_ver=2.10.0
 ARG build_rev=0
 
 LABEL org.opencontainers.image.source="\

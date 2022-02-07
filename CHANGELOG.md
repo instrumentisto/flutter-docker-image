@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [2.10.0-androidsdk30-r0] · 2022-02-07
+[2.10.0-androidsdk30-r0]: /../../tree/2.10.0-androidsdk30-r0
+
+[Diff](/../../compare/2.8.1-androidsdk30-r0...2.10.0-androidsdk30-r0)
+
+### Upgraded
+
+- [Flutter] 2.10.0: <https://docs.flutter.dev/development/tools/sdk/release-notes/release-notes-2.10.0>
+
+
+
+
 ## [2.8.1-androidsdk30-r0] · 2021-12-20
 [2.8.1-androidsdk30-r0]: /../../tree/2.8.1-androidsdk30-r0
 
