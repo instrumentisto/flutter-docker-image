@@ -3,7 +3,7 @@
 ARG android_sdk_ver=30
 FROM cirrusci/android-sdk:${android_sdk_ver}
 
-ARG flutter_ver=2.10.4
+ARG flutter_ver=2.10.5
 ARG build_rev=0
 
 LABEL org.opencontainers.image.source="\
@@ -33,12 +33,14 @@ RUN apt-get update \
  && curl -fL -o /tmp/flutter.tar.xz \
          https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${flutter_ver}-stable.tar.xz \
  && tar -xf /tmp/flutter.tar.xz -C /usr/local/ \
+ && git config --global --add safe.directory /usr/local/flutter \
  && flutter config --enable-android \
                    --enable-linux-desktop \
                    --enable-web \
                    --no-enable-ios \
  && flutter precache --universal --linux --web --no-ios \
  && (yes | flutter doctor --android-licenses) \
+ && flutter --version \
     \
  && rm -rf /var/lib/apt/lists/* \
            /tmp/*

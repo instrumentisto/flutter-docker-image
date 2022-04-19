@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [2.10.5-androidsdk30-r0] · 2022-04-19
+[2.10.5-androidsdk30-r0]: /../../tree/2.10.5-androidsdk30-r0
+
+[Diff](/../../compare/2.10.4-androidsdk30-r0...2.10.5-androidsdk30-r0)
+
+### Upgraded
+
+- [Flutter] 2.10.5: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#2105-april-18-2022>
+
+
+
+
 ## [2.10.4-androidsdk30-r0] · 2022-03-29
 [2.10.4-androidsdk30-r0]: /../../tree/2.10.4-androidsdk30-r0
 
