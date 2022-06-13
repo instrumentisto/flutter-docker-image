@@ -6,9 +6,6 @@ FROM cirrusci/android-sdk:${android_sdk_ver}
 ARG flutter_ver=3.0.2
 ARG build_rev=0
 
-LABEL org.opencontainers.image.source="\
-    https://github.com/instrumentisto/flutter-docker-image"
-
 
 # Install Flutter
 ENV FLUTTER_HOME=/usr/local/flutter \

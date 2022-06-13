@@ -70,12 +70,21 @@ docker-tags = $(strip $(if $(call eq,$(tags),),\
 #	                  [FLUTTER_VER=<android-ndk-version>]
 #	                  [BUILD_REV=<build-revision>]
 
+github_url := $(strip $(or $(GITHUB_SERVER_URL),https://github.com))
+github_repo := $(strip $(or $(GITHUB_REPOSITORY),\
+                            instrumentisto/flutter-docker-image))
+
 docker.image:
 	docker build --network=host --force-rm \
 		$(if $(call eq,$(no-cache),yes),--no-cache --pull,) \
 		--build-arg flutter_ver=$(FLUTTER_VER) \
 		--build-arg android_sdk_ver=$(ANDROID_SDK_VER) \
 		--build-arg build_rev=$(BUILD_REV) \
+		--label org.opencontainers.image.source=$(github_url)/$(github_repo) \
+		--label org.opencontainers.image.revision=$(strip \
+			$(shell git show --pretty=format:%H --no-patch)) \
+		--label org.opencontainers.image.version=$(strip \
+			$(shell git describe --tags --dirty)) \
 		-t instrumentisto/$(NAME):$(or $(tag),$(VERSION)) ./
 
 
