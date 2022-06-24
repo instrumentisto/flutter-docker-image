@@ -22,10 +22,11 @@ ANDROID_SDK_VER ?= $(strip \
 BUILD_REV ?= $(strip \
 	$(shell grep 'ARG build_rev=' Dockerfile | cut -d '=' -f2))
 
-NAMESPACES := instrumentisto \
-              ghcr.io/instrumentisto \
-              quay.io/instrumentisto
 NAME := flutter
+OWNER := $(or $(GITHUB_REPOSITORY_OWNER),instrumentisto)
+NAMESPACES := $(OWNER) \
+              ghcr.io/$(OWNER) \
+              quay.io/$(OWNER)
 TAGS ?= $(FLUTTER_VER)-androidsdk$(ANDROID_SDK_VER)-r$(BUILD_REV) \
         $(FLUTTER_VER) \
         $(strip $(shell echo $(FLUTTER_VER) | cut -d '.' -f1,2)) \
@@ -71,8 +72,7 @@ docker-tags = $(strip $(if $(call eq,$(tags),),\
 #	                  [BUILD_REV=<build-revision>]
 
 github_url := $(strip $(or $(GITHUB_SERVER_URL),https://github.com))
-github_repo := $(strip $(or $(GITHUB_REPOSITORY),\
-                            instrumentisto/flutter-docker-image))
+github_repo := $(strip $(or $(GITHUB_REPOSITORY),$(OWNER)/$(NAME)-docker-image))
 
 docker.image:
 	docker build --network=host --force-rm \
@@ -85,7 +85,7 @@ docker.image:
 			$(shell git show --pretty=format:%H --no-patch)) \
 		--label org.opencontainers.image.version=$(strip \
 			$(shell git describe --tags --dirty)) \
-		-t instrumentisto/$(NAME):$(or $(tag),$(VERSION)) ./
+		-t $(OWNER)/$(NAME):$(or $(tag),$(VERSION)) ./
 
 
 # Manually push Docker images to container registries.
@@ -120,7 +120,7 @@ define docker.tags.do
 	$(eval from := $(strip $(1)))
 	$(eval repo := $(strip $(2)))
 	$(eval to := $(strip $(3)))
-	docker tag instrumentisto/$(NAME):$(from) $(repo)/$(NAME):$(to)
+	docker tag $(OWNER)/$(NAME):$(from) $(repo)/$(NAME):$(to)
 endef
 
 
@@ -145,7 +145,7 @@ test.docker:
 ifeq ($(wildcard node_modules/.bin/bats),)
 	@make npm.install
 endif
-	IMAGE=instrumentisto/$(NAME):$(or $(tag),$(VERSION)) \
+	IMAGE=$(OWNER)/$(NAME):$(or $(tag),$(VERSION)) \
 	node_modules/.bin/bats \
 		--timing $(if $(call eq,$(CI),),--pretty,--formatter tap) \
 		tests/main.bats
