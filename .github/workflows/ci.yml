@@ -2,10 +2,10 @@ name: CI
 
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
     tags: ["*"]
   pull_request:
-    branches: ["master"]
+    branches: ["main"]
   schedule:
     - cron: "3 7 * * 3"
 
@@ -36,12 +36,12 @@ jobs:
 
       - uses: satackey/action-docker-layer-caching@v0.0.11
         continue-on-error: true
-        if: ${{ env.PUBLISH != 'true' && github.ref != 'refs/heads/master' }}
+        if: ${{ env.PUBLISH != 'true' && github.ref != 'refs/heads/main' }}
       - run: make docker.image no-cache=no tag=build-${{ github.run_number }}
-        if: ${{ env.PUBLISH != 'true' && github.ref != 'refs/heads/master' }}
+        if: ${{ env.PUBLISH != 'true' && github.ref != 'refs/heads/main' }}
 
       - run: make docker.image no-cache=yes tag=build-${{ github.run_number }}
-        if: ${{ env.PUBLISH == 'true' || github.ref == 'refs/heads/master' }}
+        if: ${{ env.PUBLISH == 'true' || github.ref == 'refs/heads/main' }}
 
       - run: make npm.install
       - run: make test.docker tag=build-${{ github.run_number }}

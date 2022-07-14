@@ -2,14 +2,14 @@ Flutter Docker image
 ====================
 
 [![Release](https://img.shields.io/github/v/release/instrumentisto/flutter-docker-image "Release")](https://github.com/instrumentisto/flutter-docker-image/releases)
-[![CI](https://github.com/instrumentisto/flutter-docker-image/workflows/CI/badge.svg?branch=master "CI")](https://github.com/instrumentisto/flutter-docker-image/actions?query=workflow%3ACI+branch%3Amaster)
+[![CI](https://github.com/instrumentisto/flutter-docker-image/workflows/CI/badge.svg?branch=main "CI")](https://github.com/instrumentisto/flutter-docker-image/actions?query=workflow%3ACI+branch%3Amain)
 [![Docker Hub](https://img.shields.io/docker/pulls/instrumentisto/flutter?label=Docker%20Hub%20pulls "Docker Hub pulls")](https://hub.docker.com/r/instrumentisto/flutter)
 
 [Docker Hub](https://hub.docker.com/r/instrumentisto/flutter)
 | [GitHub Container Registry](https://github.com/orgs/instrumentisto/packages/container/package/flutter)
 | [Quay.io](https://quay.io/repository/instrumentisto/flutter)
 
-[Changelog](https://github.com/instrumentisto/flutter-docker-image/blob/master/CHANGELOG.md)
+[Changelog](https://github.com/instrumentisto/flutter-docker-image/blob/main/CHANGELOG.md)
 
 Based on [`cirrusci/android-sdk` Docker image][2].
 
@@ -113,7 +113,7 @@ If you have any problems with or questions about this image, please contact us t
 
 [80]: https://github.com/instrumentisto/flutter-docker-image/issues
 [90]: https://github.com/instrumentisto/flutter-docker-image
-[91]: https://github.com/instrumentisto/flutter-docker-image/blob/master/LICENSE.md
+[91]: https://github.com/instrumentisto/flutter-docker-image/blob/main/LICENSE.md
 [92]: https://github.com/flutter/flutter/blob/master/LICENSE
 
-[201]: https://github.com/instrumentisto/flutter-docker-image/blob/master/Dockerfile
+[201]: https://github.com/instrumentisto/flutter-docker-image/blob/main/Dockerfile
