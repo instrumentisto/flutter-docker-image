@@ -59,26 +59,26 @@ docker run --rm -v /my/rust/project:/app -w /app instrumentisto/flutter \
 ## Image versions
 
 
-### `X`
+### `<X>`
 
-Latest tag of `X` [Flutter]'s major version.
-
-
-### `X.Y`
-
-Latest tag of `X.Y` [Flutter]'s minor version.
+Latest tag of the latest major `X` [Flutter] version.
 
 
-### `X.Y.Z`
+### `<X.Y>`
 
-Latest tag of a concrete `X.Y.Z` version of [Flutter].
+Latest tag of the latest minor `X.Y` [Flutter] version.
 
 
-### `X.Y.Z-androidsdkA-rN`
+### `<X.Y.Z>`
 
-Concrete `N` image revision tag of a [Flutter]'s concrete `X.Y.Z` version along with `A` version of [Android SDK].
+Latest tag of the concrete `X.Y.Z` [Flutter] version.
 
-Once build, it's never updated.
+
+### `<X.Y.Z>-androidsdk<A>-r<N>`
+
+Concrete `N` image revision tag of the concrete `X.Y.Z` [Flutter] version with the concrete `A` version of [Android SDK].
+
+Once built, it's never updated.
 
 
 
