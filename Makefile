@@ -58,10 +58,9 @@ test: test.docker
 # Docker commands #
 ###################
 
-docker-registries = $(strip $(if $(call eq,$(registries),),\
-                            $(REGISTRIES),$(subst $(comma), ,$(registries))))
-docker-tags = $(strip $(if $(call eq,$(tags),),\
-                      $(TAGS),$(subst $(comma), ,$(tags))))
+docker-registries = $(strip \
+	$(or $(subst $(comma), ,$(registries)),$(REGISTRIES)))
+docker-tags = $(strip $(or $(subst $(comma), ,$(tags)),$(TAGS)))
 
 
 # Build Docker image with the given tag.
@@ -172,6 +171,7 @@ endif
 	IMAGE=$(OWNER)/$(NAME):$(or $(tag),$(VERSION)) \
 	node_modules/.bin/bats \
 		--timing $(if $(call eq,$(CI),),--pretty,--formatter tap) \
+		--print-output-on-failure \
 		tests/main.bats
 
 
