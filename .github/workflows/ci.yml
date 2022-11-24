@@ -153,7 +153,7 @@ jobs:
              && matrix.registry == 'quay.io' }}
 
   release-github:
-    name: release on GitHub
+    name: release (GitHub)
     if: ${{ github.event_name == 'push'
          && startsWith(github.ref, 'refs/tags/') }}
     needs: ["push"]
