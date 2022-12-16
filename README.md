@@ -18,7 +18,7 @@ Based on [`cirrusci/android-sdk` Docker image][2].
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`3.3.9-androidsdk30-r0`, `3.3.9`, `3.3`, `3`, `latest`][201]
+- [`3.3.10-androidsdk30-r0`, `3.3.10`, `3.3`, `3`, `latest`][201]
 
 
 
@@ -56,7 +56,7 @@ docker run --rm -v /my/rust/project:/app -w /app instrumentisto/flutter \
 
 
 
-## Image versions
+## Image tags
 
 
 ### `<X>`
