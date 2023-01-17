@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.3.10-androidsdk33-r0] · 2023-01-17
+[3.3.10-androidsdk33-r0]: /../../tree/3.3.10-androidsdk33-r0
+
+[Diff](/../../compare/3.3.10-androidsdk30-r0...3.3.10-androidsdk33-r0)
+
+### Upgraded
+
+- [Android SDK] 13 (API level 33): <https://developer.android.com/about/versions/13/summary>
+
+
+
+
 ## [3.3.10-androidsdk30-r0] · 2022-12-16
 [3.3.10-androidsdk30-r0]: /../../tree/3.3.10-androidsdk30-r0
 

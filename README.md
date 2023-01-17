@@ -18,7 +18,7 @@ Based on [`cirrusci/android-sdk` Docker image][2].
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`3.3.10-androidsdk30-r0`, `3.3.10`, `3.3`, `3`, `latest`][201]
+- [`3.3.10-androidsdk33-r0`, `3.3.10`, `3.3`, `3`, `latest`][201]
 
 
 
@@ -76,7 +76,7 @@ Latest tag of the concrete `X.Y.Z` [Flutter] version.
 
 ### `<X.Y.Z>-androidsdk<A>-r<N>`
 
-Concrete `N` image revision tag of the concrete `X.Y.Z` [Flutter] version with the concrete `A` version of [Android SDK].
+Concrete `N` image revision tag of the concrete `X.Y.Z` [Flutter] version with the concrete `A` API level version of [Android SDK].
 
 Once built, it's never updated.
 

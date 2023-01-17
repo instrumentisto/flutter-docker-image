@@ -1,6 +1,6 @@
 # https://hub.docker.com/r/cirrusci/android-sdk
-# https://github.com/cirruslabs/docker-images-android/blob/master/sdk/30/Dockerfile
-ARG android_sdk_ver=30
+# https://github.com/cirruslabs/docker-images-android/blob/master/sdk/33/Dockerfile
+ARG android_sdk_ver=33
 FROM cirrusci/android-sdk:${android_sdk_ver}
 
 ARG flutter_ver=3.3.10
