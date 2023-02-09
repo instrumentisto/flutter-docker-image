@@ -3,7 +3,7 @@
 ARG android_sdk_ver=33
 FROM cirrusci/android-sdk:${android_sdk_ver}
 
-ARG flutter_ver=3.7.1
+ARG flutter_ver=3.7.2
 ARG build_rev=0
 
 
