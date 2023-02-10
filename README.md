@@ -18,7 +18,7 @@ Based on [`cirrusci/android-sdk` Docker image][2].
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`3.7.2-androidsdk33-r0`, `3.7.2`, `3.7`, `3`, `latest`][201]
+- [`3.7.3-androidsdk33-r0`, `3.7.3`, `3.7`, `3`, `latest`][201]
 
 
 
