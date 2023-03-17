@@ -1,10 +1,10 @@
-# https://hub.docker.com/r/cirrusci/android-sdk
+# https://github.com/cirruslabs/docker-images-android/pkgs/container/android-sdk
 # https://github.com/cirruslabs/docker-images-android/blob/master/sdk/33/Dockerfile
 ARG android_sdk_ver=33
-FROM cirrusci/android-sdk:${android_sdk_ver}
+FROM ghcr.io/cirruslabs/android-sdk:${android_sdk_ver}
 
 ARG flutter_ver=3.7.7
-ARG build_rev=0
+ARG build_rev=1
 
 
 # Install Flutter

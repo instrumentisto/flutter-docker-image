@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.7.7-androidsdk33-r1] · 2023-03-17
+[3.7.7-androidsdk33-r1]: /../../tree/3.7.7-androidsdk33-r1
+
+[Diff](/../../compare/3.7.7-androidsdk33-r0...3.7.7-androidsdk33-r1)
+
+### Changed
+
+- Switched `cirrusci/android-sdk` upstream Docker image to `ghcr.io/cirruslabs/android-sdk` one.
+
+
+
+
 ## [3.7.7-androidsdk33-r0] · 2023-03-09
 [3.7.7-androidsdk33-r0]: /../../tree/3.7.7-androidsdk33-r0
 

@@ -11,14 +11,14 @@ Flutter Docker image
 
 [Changelog](https://github.com/instrumentisto/flutter-docker-image/blob/main/CHANGELOG.md)
 
-Based on [`cirrusci/android-sdk` Docker image][2].
+Based on [`ghcr.io/cirruslabs/android-sdk` Docker image][2].
 
 
 
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`3.7.7-androidsdk33-r0`, `3.7.7`, `3.7`, `3`, `latest`][201]
+- [`3.7.7-androidsdk33-r1`, `3.7.7`, `3.7`, `3`, `latest`][201]
 
 
 
@@ -109,7 +109,7 @@ If you have any problems with or questions about this image, please contact us t
 [DockerHub]: https://hub.docker.com
 [Flutter]: https://flutter.dev
 
-[2]: https://hub.docker.com/r/cirrusci/android-sdk
+[2]: https://github.com/cirruslabs/docker-images-android/pkgs/container/android-sdk
 
 [80]: https://github.com/instrumentisto/flutter-docker-image/issues
 [90]: https://github.com/instrumentisto/flutter-docker-image
