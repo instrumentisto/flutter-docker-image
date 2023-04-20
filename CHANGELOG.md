@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.7.12-androidsdk33-r0] · 2023-04-20
+[3.7.12-androidsdk33-r0]: /../../tree/3.7.12-androidsdk33-r0
+
+[Diff](/../../compare/3.7.11-androidsdk33-r0...3.7.12-androidsdk33-r0)
+
+### Upgraded
+
+- [Flutter] 3.7.12: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3712-apr-19-2023>
+
+
+
+
 ## [3.7.11-androidsdk33-r0] · 2023-04-13
 [3.7.11-androidsdk33-r0]: /../../tree/3.7.11-androidsdk33-r0
 

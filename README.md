@@ -18,7 +18,7 @@ Based on [`ghcr.io/cirruslabs/android-sdk` Docker image][2].
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`3.7.11-androidsdk33-r0`, `3.7.11`, `3.7`, `3`, `latest`][201]
+- [`3.7.12-androidsdk33-r0`, `3.7.12`, `3.7`, `3`, `latest`][201]
 
 
 
