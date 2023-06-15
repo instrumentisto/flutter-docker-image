@@ -3,7 +3,7 @@
 ARG android_sdk_ver=33
 FROM ghcr.io/cirruslabs/android-sdk:${android_sdk_ver}
 
-ARG flutter_ver=3.10.4
+ARG flutter_ver=3.10.5
 ARG build_rev=0
 
 
