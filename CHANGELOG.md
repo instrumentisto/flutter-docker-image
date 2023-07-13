@@ -6,6 +6,21 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.10.6-androidsdk33-r0] · 2023-07-13
+[3.10.6-androidsdk33-r0]: /../../tree/3.10.6-androidsdk33-r0
+
+[Diff](/../../compare/3.10.5-androidsdk33-r0...3.10.6-androidsdk33-r0)
+
+### Upgraded
+
+- [Flutter] 3.10.6: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3106-july-12-2023>
+- [OpenJDK] to 17 version to support building with [Gradle] 8. ([cirruslabs/docker-images-android#54])
+
+[cirruslabs/docker-images-android#54]: https://github.com/cirruslabs/docker-images-android/pull/54
+
+
+
+
 ## [3.10.5-androidsdk33-r0] · 2023-06-15
 [3.10.5-androidsdk33-r0]: /../../tree/3.10.5-androidsdk33-r0
 
@@ -587,4 +602,6 @@ All user visible changes to this project will be documented in this file. This p
 
 [Android SDK]: https://developer.android.com/studio
 [Flutter]: https://flutter.dev
+[Gradle]: https://gradle.org
+[OpenJDK]: https://openjdk.org
 [Semantic Versioning 2.0.0]: https://semver.org
