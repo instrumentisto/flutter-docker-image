@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.16.0-androidsdk33-r0] · 2023-11-16
+[3.16.0-androidsdk33-r0]: /../../tree/3.16.0-androidsdk33-r0
+
+[Diff](/../../compare/3.13.9-androidsdk33-r0...3.16.0-androidsdk33-r0)
+
+### Upgraded
+
+- [Flutter] 3.16.0: <https://docs.flutter.dev/release/release-notes/release-notes-3.16.0>
+
+
+
+
 ## [3.13.9-androidsdk33-r0] · 2023-10-26
 [3.13.9-androidsdk33-r0]: /../../tree/3.13.9-androidsdk33-r0
 

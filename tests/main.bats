@@ -52,7 +52,7 @@
 
 @test "Android toolchain is enabled" {
   run docker run --rm --pull never --entrypoint sh $IMAGE -c \
-    'flutter config | grep "enable-android: true"'
+    'flutter config --list | grep "enable-android: true"'
   [ "$status" -eq 0 ]
 }
 
@@ -66,7 +66,7 @@
 
 @test "Linux toolchain is enabled" {
   run docker run --rm --pull never --entrypoint sh $IMAGE -c \
-    'flutter config | grep "enable-linux-desktop: true"'
+    'flutter config --list | grep "enable-linux-desktop: true"'
   [ "$status" -eq 0 ]
 }
 
@@ -80,6 +80,6 @@
 
 @test "Web toolchain is enabled" {
   run docker run --rm --pull never --entrypoint sh $IMAGE -c \
-    'flutter config | grep "enable-web: true"'
+    'flutter config --list | grep "enable-web: true"'
   [ "$status" -eq 0 ]
 }
