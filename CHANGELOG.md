@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.16.9-androidsdk34-r0] · 2024-02-14
+[3.16.9-androidsdk34-r0]: /../../tree/3.16.9-androidsdk34-r0
+
+[Diff](/../../compare/3.16.9-androidsdk33-r0...3.16.9-androidsdk34-r0)
+
+### Upgraded
+
+- [Android SDK] 14 (API level 34): <https://developer.android.com/about/versions/14/summary>
+
+
+
+
 ## [3.16.9-androidsdk33-r0] · 2024-01-26
 [3.16.9-androidsdk33-r0]: /../../tree/3.16.9-androidsdk33-r0
 
