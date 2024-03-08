@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.19.3-androidsdk34-r0] · 2024-03-08
+[3.19.3-androidsdk34-r0]: /../../tree/3.19.3-androidsdk34-r0
+
+[Diff](/../../compare/3.19.2-androidsdk34-r0...3.19.3-androidsdk34-r0)
+
+### Upgraded
+
+- [Flutter] 3.19.3: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3193-march-07-2024>
+
+
+
+
 ## [3.19.2-androidsdk34-r0] · 2024-02-29
 [3.19.2-androidsdk34-r0]: /../../tree/3.19.2-androidsdk34-r0
 
