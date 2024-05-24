@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.22.1-androidsdk34-r0] · 2024-05-24
+[3.22.1-androidsdk34-r0]: /../../tree/3.22.1-androidsdk34-r0
+
+[Diff](/../../compare/3.22.0-androidsdk34-r0...3.22.1-androidsdk34-r0)
+
+### Upgraded
+
+- [Flutter] 3.22.1: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3221-may-22-2024>
+
+
+
+
 ## [3.22.0-androidsdk34-r0] · 2024-05-14
 [3.22.0-androidsdk34-r0]: /../../tree/3.22.0-androidsdk34-r0
 
@@ -25,7 +37,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.19.6: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3196-april-17-2024>
+- [Flutter] 3.19.6: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3196-april-17-2024>
 
 
 
@@ -37,7 +49,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.19.5: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3195-march-28-2024>
+- [Flutter] 3.19.5: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3195-march-28-2024>
 
 
 
@@ -49,7 +61,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.19.4: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3194-march-21-2024>
+- [Flutter] 3.19.4: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3194-march-21-2024>
 
 
 
@@ -61,7 +73,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.19.3: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3193-march-07-2024>
+- [Flutter] 3.19.3: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3193-march-07-2024>
 
 
 
@@ -73,7 +85,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.19.2: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3192-february-28-2024>
+- [Flutter] 3.19.2: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3192-february-28-2024>
 
 
 
@@ -85,7 +97,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.19.1: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3191-february-21-2024>
+- [Flutter] 3.19.1: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3191-february-21-2024>
 
 
 
@@ -121,7 +133,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.16.9: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3169-january-25-2024>
+- [Flutter] 3.16.9: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3169-january-25-2024>
 
 
 
@@ -133,7 +145,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.16.8: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3168-january-17-2024>
+- [Flutter] 3.16.8: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3168-january-17-2024>
 
 
 
@@ -145,7 +157,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.16.7: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3167-january-11-2024>
+- [Flutter] 3.16.7: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3167-january-11-2024>
 
 
 
@@ -157,7 +169,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.16.6: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3166-january-10-2024>
+- [Flutter] 3.16.6: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3166-january-10-2024>
 
 
 
@@ -169,7 +181,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.16.5: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3165-december-20-2023>
+- [Flutter] 3.16.5: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3165-december-20-2023>
 
 
 
@@ -181,7 +193,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.16.4: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3164-december-13-2023>
+- [Flutter] 3.16.4: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3164-december-13-2023>
 
 
 
@@ -193,7 +205,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.16.3: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3163-december-5-2023>
+- [Flutter] 3.16.3: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3163-december-5-2023>
 
 
 
@@ -205,7 +217,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.16.2: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3162-november-30-2023>
+- [Flutter] 3.16.2: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3162-november-30-2023>
 
 
 
@@ -217,7 +229,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.16.1: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3161-november-27-2023>
+- [Flutter] 3.16.1: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3161-november-27-2023>
 
 
 
@@ -241,7 +253,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.13.9: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3139-october-25-2023>
+- [Flutter] 3.13.9: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3139-october-25-2023>
 
 
 
@@ -253,7 +265,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.13.8: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3138-october-18-2023>
+- [Flutter] 3.13.8: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3138-october-18-2023>
 
 
 
@@ -265,7 +277,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.13.7: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3137-october-11-2023>
+- [Flutter] 3.13.7: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3137-october-11-2023>
 
 
 
@@ -277,7 +289,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.13.6: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3136-september-27-2023>
+- [Flutter] 3.13.6: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3136-september-27-2023>
 
 
 
@@ -289,7 +301,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.13.5: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3135-september-20-2023>
+- [Flutter] 3.13.5: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3135-september-20-2023>
 
 
 
@@ -301,7 +313,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.13.4: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3134-september-13-2023>
+- [Flutter] 3.13.4: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3134-september-13-2023>
 
 
 
@@ -313,7 +325,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.13.3: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3133-september-7-2023>
+- [Flutter] 3.13.3: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3133-september-7-2023>
 
 
 
@@ -325,7 +337,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.13.2: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3132-august-30-2023>
+- [Flutter] 3.13.2: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3132-august-30-2023>
 
 
 
@@ -337,7 +349,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.13.1: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3131-august-23-2023>
+- [Flutter] 3.13.1: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3131-august-23-2023>
 
 
 
@@ -361,7 +373,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.10.6: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3106-july-12-2023>
+- [Flutter] 3.10.6: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3106-july-12-2023>
 - [OpenJDK] to 17 version to support building with [Gradle] 8. ([cirruslabs/docker-images-android#54])
 
 [cirruslabs/docker-images-android#54]: https://github.com/cirruslabs/docker-images-android/pull/54
@@ -376,7 +388,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.10.5: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3105-june-14-2023>
+- [Flutter] 3.10.5: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3105-june-14-2023>
 
 
 
@@ -388,7 +400,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.10.4: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3104-june-07-2023>
+- [Flutter] 3.10.4: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3104-june-07-2023>
 
 
 
@@ -400,7 +412,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.10.3: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3103-june-02-2023>
+- [Flutter] 3.10.3: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3103-june-02-2023>
 
 
 
@@ -412,7 +424,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.10.2: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3102-may-24-2023>
+- [Flutter] 3.10.2: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3102-may-24-2023>
 
 
 
@@ -424,7 +436,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.10.1: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3101-may-17-2023>
+- [Flutter] 3.10.1: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3101-may-17-2023>
 
 
 
@@ -449,7 +461,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.7.12: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3712-apr-19-2023>
+- [Flutter] 3.7.12: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3712-apr-19-2023>
 
 
 
@@ -461,7 +473,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.7.11: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3711-apr-12-2023>
+- [Flutter] 3.7.11: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3711-apr-12-2023>
 
 
 
@@ -473,7 +485,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.7.10: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3710-apr-05-2023>
+- [Flutter] 3.7.10: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3710-apr-05-2023>
 
 
 
@@ -485,7 +497,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.7.9: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#379-mar-30-2023>
+- [Flutter] 3.7.9: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#379-mar-30-2023>
 
 
 
@@ -497,7 +509,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.7.8: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#378-mar-22-2023>
+- [Flutter] 3.7.8: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#378-mar-22-2023>
 
 
 
@@ -521,7 +533,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.7.7: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#377-mar-08-2023>
+- [Flutter] 3.7.7: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#377-mar-08-2023>
 
 
 
@@ -533,7 +545,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.7.6: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#376-mar-01-2023>
+- [Flutter] 3.7.6: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#376-mar-01-2023>
 
 
 
@@ -545,7 +557,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.7.5: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#375-feb-22-2023>
+- [Flutter] 3.7.5: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#375-feb-22-2023>
 
 
 
@@ -557,7 +569,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.7.4: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#374-feb-21-2023>
+- [Flutter] 3.7.4: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#374-feb-21-2023>
 
 
 
@@ -569,7 +581,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.7.3: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#373-feb-9-2023>
+- [Flutter] 3.7.3: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#373-feb-9-2023>
 
 
 
@@ -581,7 +593,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.7.2: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#372-feb-8-2023>
+- [Flutter] 3.7.2: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#372-feb-8-2023>
 
 
 
@@ -593,7 +605,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.7.1: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#371-feb-1-2023>
+- [Flutter] 3.7.1: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#371-feb-1-2023>
 
 
 
@@ -629,7 +641,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.3.10: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#3310-dec-16-2022>
+- [Flutter] 3.3.10: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#3310-dec-16-2022>
 
 
 
@@ -641,7 +653,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.3.9: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#339-nov-23-2022>
+- [Flutter] 3.3.9: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#339-nov-23-2022>
 
 
 
@@ -653,7 +665,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.3.8: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#338-nov-09-2022>
+- [Flutter] 3.3.8: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#338-nov-09-2022>
 
 
 
@@ -665,7 +677,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.3.7: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#337-nov-2-2022>
+- [Flutter] 3.3.7: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#337-nov-2-2022>
 
 
 
@@ -677,7 +689,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.3.6: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#336-oct-26-2022>
+- [Flutter] 3.3.6: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#336-oct-26-2022>
 
 
 
@@ -689,7 +701,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.3.5: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#335-oct-19-2022>
+- [Flutter] 3.3.5: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#335-oct-19-2022>
 
 
 
@@ -701,7 +713,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.3.4: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#334-oct-05-2022>
+- [Flutter] 3.3.4: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#334-oct-05-2022>
 
 
 
@@ -713,7 +725,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.3.3: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#333-sept-28-2022>
+- [Flutter] 3.3.3: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#333-sept-28-2022>
 
 
 
@@ -725,7 +737,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.3.2: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#332-sept-14-2022>
+- [Flutter] 3.3.2: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#332-sept-14-2022>
 
 
 
@@ -737,7 +749,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.3.1: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#331-sept-7-2022>
+- [Flutter] 3.3.1: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#331-sept-7-2022>
 
 
 
@@ -761,7 +773,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.0.5: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#305-july-13-2022>
+- [Flutter] 3.0.5: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#305-july-13-2022>
 
 
 
@@ -773,7 +785,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.0.4: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#304-july-1-2022>
+- [Flutter] 3.0.4: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#304-july-1-2022>
 
 
 
@@ -785,7 +797,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.0.3: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#303-june-22-2022>
+- [Flutter] 3.0.3: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#303-june-22-2022>
 
 
 
@@ -797,7 +809,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.0.2: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#302-june-10-2022>
+- [Flutter] 3.0.2: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#302-june-10-2022>
 
 
 
@@ -809,7 +821,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 3.0.1: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#301-may-19-2022>
+- [Flutter] 3.0.1: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#301-may-19-2022>
 
 
 
@@ -833,7 +845,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 2.10.5: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#2105-april-18-2022>
+- [Flutter] 2.10.5: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#2105-april-18-2022>
 
 
 
@@ -845,7 +857,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 2.10.4: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#2104-march-28-2022>
+- [Flutter] 2.10.4: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#2104-march-28-2022>
 
 
 
@@ -857,7 +869,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 2.10.3: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#2103-march-02-2022>
+- [Flutter] 2.10.3: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#2103-march-02-2022>
 
 
 
@@ -869,7 +881,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 2.10.2: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#2102-february-18-2022>
+- [Flutter] 2.10.2: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#2102-february-18-2022>
 
 
 
@@ -881,7 +893,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 2.10.1: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#2101-february-9-2022>
+- [Flutter] 2.10.1: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#2101-february-9-2022>
 
 
 
@@ -905,7 +917,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Upgraded
 
-- [Flutter] 2.8.1: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#281-december-16-2021>
+- [Flutter] 2.8.1: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#281-december-16-2021>
 
 
 
@@ -943,7 +955,7 @@ All user visible changes to this project will be documented in this file. This p
 
 ### Added
 
-- [Flutter] 2.5.3: <https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#253-october-15-2021>
+- [Flutter] 2.5.3: <https://github.com/flutter/flutter/blob/bb5b7d260882d5c64912c6a21bc04917385cd8de/docs/releases/Hotfixes-to-the-Stable-Channel.md#253-october-15-2021>
 
 
 
