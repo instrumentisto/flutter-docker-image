@@ -6,6 +6,19 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [main] · unreleased
+[main]: /../../tree/main
+
+[Diff](/../../compare/3.27.1-androidsdk34-r0...main)
+
+### Upgraded
+
+- [OpenJDK] to 21 version. ([cirruslabs/docker-images-android#71])
+
+[cirruslabs/docker-images-android#71]: https://github.com/cirruslabs/docker-images-android/pull/71
+
+
+
 ## [3.27.1-androidsdk34-r0] · 2024-12-17
 [3.27.1-androidsdk34-r0]: /../../tree/3.27.1-androidsdk34-r0
 
