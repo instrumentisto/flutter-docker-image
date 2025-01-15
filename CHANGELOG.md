@@ -6,16 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [main] · unreleased
-[main]: /../../tree/main
+## [3.27.2-androidsdk34-r0] · 2024-01-15
+[3.27.2-androidsdk34-r0]: /../../tree/3.27.2-androidsdk34-r0
 
-[Diff](/../../compare/3.27.1-androidsdk34-r0...main)
+[Diff](/../../compare/3.27.1-androidsdk34-r0...3.27.2-androidsdk34-r0)
 
 ### Upgraded
 
+- [Flutter] 3.27.2: <https://github.com/flutter/flutter/blob/40c2b86fdf650cb95ad69915cd724191ee36de32/CHANGELOG.md#3272>
 - [OpenJDK] to 21 version. ([cirruslabs/docker-images-android#71])
 
 [cirruslabs/docker-images-android#71]: https://github.com/cirruslabs/docker-images-android/pull/71
+
 
 
 
