@@ -6,7 +6,19 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [3.27.2-androidsdk34-r0] · 2024-01-15
+## [3.27.3-androidsdk34-r0] · 2025-01-22
+[3.27.3-androidsdk34-r0]: /../../tree/3.27.3-androidsdk34-r0
+
+[Diff](/../../compare/3.27.2-androidsdk34-r0...3.27.3-androidsdk34-r0)
+
+### Upgraded
+
+- [Flutter] 3.27.3: <https://github.com/flutter/flutter/blob/3.27.3/CHANGELOG.md#3273>
+
+
+
+
+## [3.27.2-androidsdk34-r0] · 2025-01-15
 [3.27.2-androidsdk34-r0]: /../../tree/3.27.2-androidsdk34-r0
 
 [Diff](/../../compare/3.27.1-androidsdk34-r0...3.27.2-androidsdk34-r0)
