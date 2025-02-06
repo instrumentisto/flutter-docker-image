@@ -2,7 +2,7 @@ Flutter Docker image
 ====================
 
 [![Release](https://img.shields.io/github/v/release/instrumentisto/flutter-docker-image "Release")](https://github.com/instrumentisto/flutter-docker-image/releases)
-[![CI](https://github.com/instrumentisto/flutter-docker-image/workflows/CI/badge.svg?branch=main "CI")](https://github.com/instrumentisto/flutter-docker-image/actions?query=workflow%3ACI+branch%3Amain)
+[![CI](https://github.com/instrumentisto/flutter-docker-image/actions/workflows/ci.yml/badge.svg?branch=main "CI")](https://github.com/instrumentisto/flutter-docker-image/actions?query=workflow%3ACI+branch%3Amain)
 [![Docker Hub](https://img.shields.io/docker/pulls/instrumentisto/flutter?label=Docker%20Hub%20pulls "Docker Hub pulls")](https://hub.docker.com/r/instrumentisto/flutter)
 
 [Docker Hub](https://hub.docker.com/r/instrumentisto/flutter)
@@ -18,7 +18,7 @@ Based on [`ghcr.io/cirruslabs/android-sdk` Docker image][2].
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`3.27.3-androidsdk34-r0`, `3.27.3`, `3.27`, `3`, `latest`][201]
+- [`3.27.4-androidsdk34-r0`, `3.27.4`, `3.27`, `3`, `latest`][201]
 
 
 
