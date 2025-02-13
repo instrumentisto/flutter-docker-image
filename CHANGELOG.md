@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.29.0-androidsdk34-r0] · 2025-02-13
+[3.29.0-androidsdk34-r0]: /../../tree/3.29.0-androidsdk34-r0
+
+[Diff](/../../compare/3.27.4-androidsdk34-r0...3.29.0-androidsdk34-r0)
+
+### Upgraded
+
+- [Flutter] 3.29.0: <https://docs.flutter.dev/release/release-notes/release-notes-3.29.0>
+
+
+
+
 ## [3.27.4-androidsdk34-r0] · 2025-02-06
 [3.27.4-androidsdk34-r0]: /../../tree/3.27.4-androidsdk34-r0
 
