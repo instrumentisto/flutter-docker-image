@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.29.0-androidsdk35-r0] · 2025-03-04
+[3.29.0-androidsdk35-r0]: /../../tree/3.29.0-androidsdk35-r0
+
+[Diff](/../../compare/3.29.0-androidsdk34-r0...3.29.0-androidsdk35-r0)
+
+### Upgraded
+
+- [Android SDK] 15 (API level 35): <https://developer.android.com/about/versions/15/summary>
+
+
+
+
 ## [3.29.0-androidsdk34-r0] · 2025-02-13
 [3.29.0-androidsdk34-r0]: /../../tree/3.29.0-androidsdk34-r0
 
