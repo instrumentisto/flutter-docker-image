@@ -6,6 +6,20 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## main
+
+[Diff](/../../compare/3.29.3-androidsdk35-r0...main)
+
+### Changed
+
+- Changed `flutter_tools/.dart_tool` owner to `1000` user. ([#21], [#20])
+
+[#20]: /../../issues/20
+[#21]: /../../pull/21
+
+
+
+
 ## [3.29.3-androidsdk35-r0] · 2025-04-16
 [3.29.3-androidsdk35-r0]: /../../tree/3.29.3-androidsdk35-r0
 

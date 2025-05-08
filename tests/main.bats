@@ -32,6 +32,12 @@
   [ "$status" -eq 0 ]
 }
 
+@test "flutter doctor runs ok by non-root" {
+  run docker run --rm --pull never --user 1000:1000 --entrypoint sh $IMAGE -c \
+    'flutter doctor'
+  [ "$status" -eq 0 ]
+}
+
 @test "flutter has correct version" {
   run docker run --rm --pull never --entrypoint sh $IMAGE -c \
     "flutter --version | grep 'Flutter ' | cut -d ' ' -f 2 | tr -d ' '"
