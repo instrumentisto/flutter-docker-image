@@ -54,6 +54,16 @@ docker run --rm -v /my/rust/project:/app -w /app instrumentisto/flutter \
 ```
 
 
+### Non-`root` usage
+
+If you cannot run this image as `root`, use the `1000` user instead, which owns `flutter_tools` inside the image:
+```bash
+docker run --rm --user 1000:1000 \
+           -v /my/rust/project:/app -w /app instrumentisto/flutter \
+    flutter doctor
+```
+
+
 
 
 ## Image tags
