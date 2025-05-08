@@ -40,4 +40,5 @@ RUN apt-get update \
  && flutter --version \
     \
  && rm -rf /var/lib/apt/lists/* \
-           /tmp/*
+           /tmp/* \
+ && chown -R 1000:1000 /usr/local/flutter/packages/flutter_tools/.dart_tool/
