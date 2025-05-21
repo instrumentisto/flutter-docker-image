@@ -6,9 +6,14 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## main
+## [3.32.0-androidsdk35-r0] · 2025-05-21
+[3.32.0-androidsdk35-r0]: /../../tree/3.32.0-androidsdk35-r0
 
-[Diff](/../../compare/3.29.3-androidsdk35-r0...main)
+[Diff](/../../compare/3.29.3-androidsdk35-r0...3.32.0-androidsdk35-r0)
+
+### Upgraded
+
+- [Flutter] 3.32.0: <https://docs.flutter.dev/release/release-notes/release-notes-3.32.0>
 
 ### Changed
 
