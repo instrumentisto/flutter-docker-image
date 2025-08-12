@@ -22,7 +22,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
       - uses: docker/setup-buildx-action@v3
@@ -50,7 +50,7 @@ jobs:
          && startsWith(github.ref, 'refs/tags/') }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Parse semver versions from Git tag
         id: semver
@@ -73,7 +73,7 @@ jobs:
     needs: ["build"]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - run: make npm.install
 
       - uses: actions/download-artifact@v5
@@ -112,7 +112,7 @@ jobs:
                     && secrets.DOCKERHUB_BOT_USER == ''))
              ) }}" >> $GITHUB_OUTPUT
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         if: ${{ steps.skip.outputs.no == 'true' }}
 
       - name: Parse Docker image name from Git repository name
@@ -183,7 +183,7 @@ jobs:
     needs: ["push"]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Parse semver versions from Git tag
         id: semver
