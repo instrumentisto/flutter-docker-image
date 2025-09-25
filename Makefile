@@ -74,7 +74,7 @@ github_url := $(strip $(or $(GITHUB_SERVER_URL),https://github.com))
 github_repo := $(strip $(or $(GITHUB_REPOSITORY),$(OWNER)/$(NAME)-docker-image))
 
 docker.image:
-	docker build --network=host --force-rm \
+	docker buildx build --platform linux/amd64,linux/arm64 --network=host --force-rm \
 		$(if $(call eq,$(no-cache),yes),--no-cache --pull,) \
 		--build-arg flutter_ver=$(FLUTTER_VER) \
 		--build-arg android_sdk_ver=$(ANDROID_SDK_VER) \

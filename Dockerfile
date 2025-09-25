@@ -27,9 +27,7 @@ RUN apt-get update \
             pkg-config \
     \
  # Install Flutter itself
- && curl -fL -o /tmp/flutter.tar.xz \
-         https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${flutter_ver}-stable.tar.xz \
- && tar -xf /tmp/flutter.tar.xz -C /usr/local/ \
+ && git clone --branch ${flutter_ver} --single-branch https://github.com/flutter/flutter.git /usr/local/flutter \
  && git config --global --add safe.directory /usr/local/flutter \
  && flutter config --enable-android \
                    --enable-linux-desktop \
