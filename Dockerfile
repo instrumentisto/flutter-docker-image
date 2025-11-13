@@ -1,10 +1,21 @@
 # https://github.com/cirruslabs/docker-images-android/pkgs/container/android-sdk
 # https://github.com/cirruslabs/docker-images-android/blob/master/sdk/35/Dockerfile
-ARG android_sdk_ver=35
-FROM ghcr.io/cirruslabs/android-sdk:${android_sdk_ver}
+# TODO: Switch back to `${android_sdk_ver}` image version once
+#       cirruslabs/docker-images-android#79 is resolved:
+#       https://github.com/cirruslabs/docker-images-android/issues/79
+FROM ghcr.io/cirruslabs/android-sdk:tools
 
+ARG android_sdk_ver=36
 ARG flutter_ver=3.38.0
 ARG build_rev=0
+
+
+# Switch Android SDK to 36 version.
+# TODO: Remove once cirruslabs/docker-images-android#79 is resolved:
+#       https://github.com/cirruslabs/docker-images-android/issues/79
+RUN yes | sdkmanager \
+    "platforms;android-${android_sdk_ver}" \
+    "build-tools;${android_sdk_ver}.0.0"
 
 
 # Install Flutter

@@ -6,14 +6,15 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
-## [3.38.0-androidsdk35-r0] · 2025-11-13
-[3.38.0-androidsdk35-r0]: /../../tree/3.38.0-androidsdk35-r0
+## [3.38.0-androidsdk36-r0] · 2025-11-13
+[3.38.0-androidsdk36-r0]: /../../tree/3.38.0-androidsdk36-r0
 
-[Diff](/../../compare/3.35.7-androidsdk35-r0...3.38.0-androidsdk35-r0)
+[Diff](/../../compare/3.35.7-androidsdk35-r0...3.38.0-androidsdk36-r0)
 
 ### Upgraded
 
 - [Flutter] 3.38.0: <https://docs.flutter.dev/release/release-notes/release-notes-3.38.0>
+- [Android SDK] 16 (API level 36): <https://developer.android.com/about/versions/16/summary>
 
 
 
