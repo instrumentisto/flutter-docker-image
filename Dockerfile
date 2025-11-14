@@ -6,7 +6,7 @@
 FROM ghcr.io/cirruslabs/android-sdk:tools
 
 ARG android_sdk_ver=36
-ARG flutter_ver=3.38.0
+ARG flutter_ver=3.38.1
 ARG build_rev=0
 
 
