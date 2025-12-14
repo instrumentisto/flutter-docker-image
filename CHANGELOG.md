@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.38.5-androidsdk36-r0] · 2025-12-14
+[3.38.5-androidsdk36-r0]: /../../tree/3.38.5-androidsdk36-r0
+
+[Diff](/../../compare/3.38.4-androidsdk36-r0...3.38.5-androidsdk36-r0)
+
+### Upgraded
+
+- [Flutter] 3.38.5: <https://github.com/flutter/flutter/blob/3.38.5/CHANGELOG.md#3385>
+
+
+
+
 ## [3.38.4-androidsdk36-r0] · 2025-12-05
 [3.38.4-androidsdk36-r0]: /../../tree/3.38.4-androidsdk36-r0
 
