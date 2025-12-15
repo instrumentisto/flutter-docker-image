@@ -93,7 +93,7 @@ jobs:
       - uses: actions/checkout@v6
       - run: make npm.install
 
-      - uses: actions/download-artifact@v6
+      - uses: actions/download-artifact@v7
         with:
           name: image-${{ github.run_number }}
           path: .cache/
@@ -139,7 +139,7 @@ jobs:
           text: ${{ github.repository }}
           regex: '^${{ github.repository_owner }}/(.+)-docker-image$'
 
-      - uses: actions/download-artifact@v6
+      - uses: actions/download-artifact@v7
         with:
           name: image-${{ github.run_number }}
           path: .cache/
