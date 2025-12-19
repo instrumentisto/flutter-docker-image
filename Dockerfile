@@ -17,25 +17,16 @@ RUN apt-get update \
             ca-certificates \
  && update-ca-certificates \
     \
- # Install dependencies for Linux toolchain
- && apt-get install -y --no-install-recommends --no-install-suggests \
-            build-essential \
-            clang cmake \
-            lcov \
-            libgtk-3-dev liblzma-dev \
-            ninja-build \
-            pkg-config \
-    \
  # Install Flutter itself
  && curl -fL -o /tmp/flutter.tar.xz \
          https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${flutter_ver}-stable.tar.xz \
  && tar -xf /tmp/flutter.tar.xz -C /usr/local/ \
  && git config --global --add safe.directory /usr/local/flutter \
  && flutter config --enable-android \
-                   --enable-linux-desktop \
                    --enable-web \
+                   --no-enable-linux-desktop \
                    --no-enable-ios \
- && flutter precache --universal --linux --web --no-ios \
+ && flutter precache --universal --android --web --no-ios \
  && (yes | flutter doctor --android-licenses) \
  && flutter --version \
     \
