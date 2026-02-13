@@ -6,6 +6,18 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [3.41.0-androidsdk36-r0] · 2026-02-13
+[3.41.0-androidsdk36-r0]: /../../tree/3.41.0-androidsdk36-r0
+
+[Diff](/../../compare/3.38.10-androidsdk36-r0...3.41.0-androidsdk36-r0)
+
+### Upgraded
+
+- [Flutter] 3.41.0: <https://docs.flutter.dev/release/release-notes/release-notes-3.41.0>
+
+
+
+
 ## [3.38.10-androidsdk36-r0] · 2026-02-12
 [3.38.10-androidsdk36-r0]: /../../tree/3.38.10-androidsdk36-r0
 
