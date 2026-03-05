@@ -42,7 +42,7 @@ jobs:
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0
-      - uses: docker/setup-buildx-action@v3
+      - uses: docker/setup-buildx-action@v4
 
       - run: make docker.image no-cache=yes
                   tag=build-${{ github.run_number }}
