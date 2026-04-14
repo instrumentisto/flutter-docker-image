@@ -16,6 +16,13 @@ Based on [`ghcr.io/cirruslabs/android-sdk` Docker image][2].
 
 
 
+## Status
+
+__PROJECT IS CLOSED AND ARCHIVED. NO MAINTAINING WILL BE CONTINUED.__
+
+
+
+
 ## Supported tags and respective `Dockerfile` links
 
 - [`3.41.6-androidsdk36-r0`, `3.41.6`, `3.41`, `3`, `latest`][201]
